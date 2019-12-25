@@ -6537,13 +6537,15 @@ window.onload = function() {
         return gSTB.GetDeviceMacAddress();
     };
     Stalker.prototype.buildBody = function() {
+        var companyId = 509;
         var deviceSerial = 'sn=' + this.getSerialNumber();
         var deviceModel = 'model=' + this.getModel();
         var deviceInfo = 'info=StalkerDevice';
         var version = 'version=1';
         var platform = 'platform=mag';
         var hash = 'hash=' + MD5(this.getMacAddress() + '' + this.getModel());
-        return deviceSerial + '&' + deviceModel + '&' + deviceInfo + '&' + version + '&' + platform + '&' + hash;
+        var companyId = 'company_id=' + companyId;
+        return deviceSerial + '&' + deviceModel + '&' + deviceInfo + '&' + version + '&' + platform + '&' + hash + '&' + companyId;
     };
 
     stalker = new Stalker();
