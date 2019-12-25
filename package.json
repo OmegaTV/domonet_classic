@@ -1,7 +1,7 @@
 {
-  "name": "omegatv",
+  "name": "DomoTV",
   "version": "2.4.0",
-  "description": "OmegaTV WebPlayer",
+  "description": "DomoTV WebPlayer",
   "main": "index.js",
   "author": "",
   "license": "ISC",
@@ -27,15 +27,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OmegaTV/stalker_classic.git"
+    "url": "https://github.com/OmegaTV/domonet_classic.git"
   },
   "config": {
     "type": "app",
     "category": "apps",
-    "backgroundColor": "#171717",
-    "name": "OmegaTV",
+    "backgroundColor": "#E96C09",
+    "name": "DomoTV",
     "legacy": true,
-    "description": "OmegaTV Player",
+    "description": "DomoTV Player",
     "icons": {
       "480": {
         "logoNormal": "img/480/normal.png",
